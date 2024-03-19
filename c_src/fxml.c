@@ -117,9 +117,9 @@ static void xml_encode(ErlNifEnv* env, struct buf *rbuf, unsigned char *data, in
     case '>':
       buf_add_str(env, rbuf, "&gt;", 4);
       break;
-    case '"':
-      buf_add_str(env, rbuf, "&quot;", 6);
-      break;
+    // case '"':
+    //   buf_add_str(env, rbuf, "&quot;", 6);
+    //   break;
     case '\'':
       buf_add_str(env, rbuf, "&apos;", 6);
       break;
