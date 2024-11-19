@@ -1,3 +1,15 @@
+# Version 1.1.53
+
+* Add 'use_maps' option to fxml_stream.parse_element()
+* Various CI improvments
+* Fix issues with rebar3 and make spec
+
+# Version 1.1.52
+
+* Updating p1_utils to version 1.0.26.
+* Fix issues on OTP27
+* Make compatible with expat 2.6
+
 # Version 1.1.51
 
 * Fix hex release scripts
